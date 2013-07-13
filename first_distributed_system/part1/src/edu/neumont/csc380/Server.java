@@ -1,3 +1,8 @@
+package edu.neumont.csc380;
+
+import edu.neumont.csc380.ClientThread;
+import edu.neumont.csc380.MathLogic;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;

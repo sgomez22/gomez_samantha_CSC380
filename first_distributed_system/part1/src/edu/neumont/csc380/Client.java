@@ -1,12 +1,11 @@
-import javax.swing.*;
-import java.io.IOException;
+package edu.neumont.csc380;
+
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.lang.reflect.Method;
 import java.net.Socket;
-import java.nio.channels.Channel;
-import java.nio.channels.SelectionKey;
-import java.nio.channels.Selector;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -27,22 +26,24 @@ public class Client {
         String numbers = null;
 
         try{
-            System.out.println("[1] Add \n[2] Subtract");
+            Class c = Class.forName("edu.neumont.csc380.MathLogic");
+            Method[] methods = c.getMethods();
+            ArrayList<String> classMeths = new ArrayList<String>();
+            for(Method meth : methods){
+                if(((Method)meth).toGenericString().contains("edu"))
+                    classMeths.add(meth.getName());
+            }
+
+            for(int i = 1; i < classMeths.size()+1; i++)
+                System.out.println("["+i+"] "+ classMeths.get(i-1));
             int input =  scan.nextInt();
             scan.nextLine();
 
-            switch(input){
-                case 1:
-                    System.out.println("Enter two numbers to add, separated by a space");
-                    numbers = scan.nextLine();
-                    break;
-                case 2:
-                    System.out.println("Enter two numbers to subtract, separated by a space");
-                    numbers = scan.nextLine();
-                    break;
-                default:
-                    System.out.println("Please enter numbers 1 or 2");
-                    break;
+            if(input != 0 && input <= classMeths.size()){
+                System.out.println("Enter numbers to calculate separated by a space");
+                numbers = scan.nextLine();
+            } else{
+                System.out.println("Please enter numbers 1 - "+classMeths.size());
             }
 
             Socket server = new Socket("localhost", 30000);

@@ -1,3 +1,5 @@
+package edu.neumont.csc380;
+
 /**
  * Created with IntelliJ IDEA.
  * User: sgomez

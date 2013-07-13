@@ -1,3 +1,5 @@
+package edu.neumont.csc380;
+
 import java.net.Socket;
 
 /**
