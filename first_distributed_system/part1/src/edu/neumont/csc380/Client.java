@@ -27,23 +27,17 @@ public class Client {
 
         try{
             Class c = Class.forName("edu.neumont.csc380.MathLogic");
-            Method[] methods = c.getMethods();
-            ArrayList<String> classMeths = new ArrayList<String>();
-            for(Method meth : methods){
-                if(((Method)meth).toGenericString().contains("edu"))
-                    classMeths.add(meth.getName());
-            }
-
-            for(int i = 1; i < classMeths.size()+1; i++)
-                System.out.println("["+i+"] "+ classMeths.get(i-1));
+            Method[] methods = c.getDeclaredMethods();
+            for(int i = 1; i < methods.length+1; i++)
+                System.out.println("["+i+"] "+ methods[i-1].getName());
             int input =  scan.nextInt();
             scan.nextLine();
 
-            if(input != 0 && input <= classMeths.size()){
+            if(input != 0 && input <= methods.length){
                 System.out.println("Enter numbers to calculate separated by a space");
                 numbers = scan.nextLine();
             } else{
-                System.out.println("Please enter numbers 1 - "+classMeths.size());
+                System.out.println("Please enter numbers 1 - "+methods.length);
             }
 
             Socket server = new Socket("localhost", 30000);

@@ -6,6 +6,7 @@ import edu.neumont.csc380.MathLogic;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.lang.reflect.Method;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -19,7 +20,6 @@ import java.net.Socket;
 public class Server {
 
     public static void main(String[] args) {
-        MathLogic mathlogic = new MathLogic();
         ServerSocket server = null;
         try{
             while(true){
@@ -29,19 +29,29 @@ public class Server {
                 ClientThread ct = new ClientThread(client);
                 ct.start();
 
+                Class c = Class.forName("edu.neumont.csc380.MathLogic");
+                Method[] methods = c.getDeclaredMethods();
+
                 PrintWriter out = new PrintWriter(client.getOutputStream(), true);
                 BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
                 String numbers = in.readLine();
                 String input = in.readLine();
                 String[] splitNumbers = numbers.split(" ");
-                int a = Integer.valueOf(splitNumbers[0]);
-                int b = Integer.valueOf(splitNumbers[1]);
-                int value = Integer.valueOf(input);
 
-                if(value == 1){
-                    out.println(mathlogic.add(a, b));
-                } else if(value == 2){
-                    out.println(mathlogic.subtract(a, b));
+                Object[] inputs = new Object[splitNumbers.length];
+                  for(int i = 0; i <splitNumbers.length; i++)
+                  {
+                    inputs[i] = Integer.valueOf(splitNumbers[i]);
+                  }
+
+                Object reflect = c.getConstructor().newInstance();
+                Method meth;
+                int value = Integer.valueOf(input);
+                for(int i = 0; i < methods.length; i++){
+                    if(methods[value-1].equals(methods[i])){
+                       meth = methods[i];
+                       out.println(meth.invoke(reflect, inputs));
+                    }
                 }
 
                 out.close();

@@ -16,4 +16,8 @@ public class MathLogic {
     public int subtract(int a, int b){
         return a - b;
     }
+
+    public int addMore(int a, int b, int c){
+        return a + b + c;
+    }
 }
