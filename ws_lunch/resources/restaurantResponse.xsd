@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.example.org/stock" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="getRestaurantsResponse" type="stoc:getRestaurantsResponseType" xmlns:stoc="http://www.example.org/stock"/>
+  <xs:complexType name="getRestaurantsResponseType">
+    <xs:sequence>
+      <xs:element type="stoc:restaurantType" name="restaurant" xmlns:stoc="http://www.example.org/stock"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="restaurantType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
