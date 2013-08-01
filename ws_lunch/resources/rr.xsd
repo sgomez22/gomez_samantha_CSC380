@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.example.org/sgomez" xmlns:soap="http://www.w3.org/2001/12/soap-envelope" xmlns:rr="http://www.example.org/sgomez">
+    <xs:import namespace="http://www.w3.org/2001/12/soap-envelope" schemaLocation="restaurantResponse.xsd"/>
+    <xs:element name="getRestaurantsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="rr:restaurant"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="restaurant">
+        <xs:complexType>
+            <xs:attribute name="name" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

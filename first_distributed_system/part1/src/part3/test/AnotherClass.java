@@ -8,4 +8,16 @@ package part3.test;
  * To change this template use File | Settings | File Templates.
  */
 public class AnotherClass {
+
+    public int multiply(int a, int b){
+         return a * b;
+    }
+
+    public String method2(String mystr){
+        return "You said: " + mystr;
+    }
+
+    public String method3(String str, int a){
+          return str + " " + a;
+    }
 }

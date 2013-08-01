@@ -24,8 +24,13 @@ public class Client {
     public void run(){
         Scanner scan = new Scanner(System.in);
         String numbers = null;
+        String packageName;
 
         try{
+            System.out.println("Which package would you like to use? -- ex: edu.neumont.csc380");
+            packageName = scan.nextLine();
+
+
             Class c = Class.forName("edu.neumont.csc380.MathLogic");
             Method[] methods = c.getDeclaredMethods();
             for(int i = 1; i < methods.length+1; i++)

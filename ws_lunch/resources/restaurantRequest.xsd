@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/2001/12/soap-envelope" xmlns:soap="http://www.w3.org/2001/12/soap-envelope" xmlns:rr="http://www.example.org/sgomez">
-    <xs:import namespace="http://www.example.org/sgomez" schemaLocation="rr.xsd"/>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.w3.org/2001/12/soap-envelope" xmlns:soap="http://www.w3.org/2001/12/soap-envelope" xmlns:r="http://www.example.org/sgomez">
+    <xs:import namespace="http://www.example.org/sgomez" schemaLocation="r.xsd"/>
     <xs:element name="Envelope">
         <xs:complexType>
             <xs:sequence>
@@ -12,7 +12,7 @@
     <xs:element name="Body">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="rr:getRestaurantsResponse"/>
+                <xs:element ref="r:getRestaurants"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>

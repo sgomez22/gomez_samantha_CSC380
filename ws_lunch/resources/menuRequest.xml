@@ -3,7 +3,7 @@
 	xmlns:soap="http://www.w3.org/2001/12/soap-envelope"
 	soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
 
-	<soap:Body xmlns:m="http://www.example.org/stock">
+	<soap:Body xmlns:m="http://www.example.org/sgomez">
 	  <m:getMenuItems>
 		<m:foodName>Pork</m:foodName>
         <m:foodName>Steak</m:foodName>
