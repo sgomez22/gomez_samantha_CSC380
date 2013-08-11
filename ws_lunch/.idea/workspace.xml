@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\sgomez\Documents\Neumont\Quarter12\CSC 380\gomez_samantha_CSC380\ws_lunch\resources\restaurantRequest.xml1.xsd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sgomez\Documents\Neumont\Quarter12\CSC 380\gomez_samantha_CSC380\ws_lunch\resources\restaurantResponse.xml1.xsd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sgomez\Documents\Neumont\Quarter12\CSC 380\gomez_samantha_CSC380\ws_lunch\resources\restaurantResponse.xsd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sgomez\Documents\Neumont\Quarter12\CSC 380\gomez_samantha_CSC380\ws_lunch\src\edu\neumont\csc380\jaxb\GetRestaurantsResponseType.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sgomez\Documents\Neumont\Quarter12\CSC 380\gomez_samantha_CSC380\ws_lunch\src\edu\neumont\csc380\jaxb\ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sgomez\Documents\Neumont\Quarter12\CSC 380\gomez_samantha_CSC380\ws_lunch\src\edu\neumont\csc380\jaxb\RestaurantType.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\sgomez\Documents\Neumont\Quarter12\CSC 380\gomez_samantha_CSC380\ws_lunch\src\edu\neumont\csc380\MyServlet.java" afterPath="$PROJECT_DIR$/src/edu/neumont/csc380/servlet/RestaurantServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../first_distributed_system/part1/src/part3/test/AnotherClass.java" afterPath="$PROJECT_DIR$/../first_distributed_system/part1/src/part3/test/AnotherClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../first_distributed_system/part1/src/edu/neumont/csc380/Client.java" afterPath="$PROJECT_DIR$/../first_distributed_system/part1/src/edu/neumont/csc380/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/menuRequest.xml" afterPath="$PROJECT_DIR$/resources/menuRequest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/menuResponse.xml" afterPath="$PROJECT_DIR$/resources/menuResponse.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/restaurantRequest.xml" afterPath="$PROJECT_DIR$/resources/restaurantRequest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/restaurantResponse.xml" afterPath="$PROJECT_DIR$/resources/restaurantResponse.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../first_distributed_system/part1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../first_distributed_system/part1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jaxws/src/servlet/ZipCodeServlet.java" afterPath="$PROJECT_DIR$/jaxws/src/servlet/ZipCodeServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="soapForLunch.iws" />
@@ -25,15 +14,14 @@
     <file path="$PROJECT_DIR$/../../../../../GitHub/bacon_chris_csc360/ws_lunch/src/edu/neumont/csc380/model/restaurants.xml" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375229942162" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../GitHub/bacon_chris_csc360/ws_lunch/src/edu/neumont/csc380/model/restaurants.xsd" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375230571528" ignored="false" />
     <file path="/MyServlet.java" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375314871342" ignored="false" />
-    <file path="/fragment.java" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375318349267" ignored="false" />
+    <file path="/fragment.java" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1376175553244" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../GitHub/bacon_chris_csc360/ws_lunch/.idea/workspace.xml" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375246792602" ignored="false" />
-    <file path="/Dummy.txt" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375316660840" ignored="false" />
+    <file path="/Dummy.txt" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1376172797665" ignored="false" />
     <file path="/menuRequest.xml" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375314147154" ignored="false" />
     <file path="/menuResponse.xml" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375314152535" ignored="false" />
     <file path="/restaurantResponse.xml" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375318317183" ignored="false" />
-    <file path="/restaurantRequest.xml" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375314139613" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375245934555" ignored="false" />
-    <file path="/RestaurantServlet.java" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375371816546" ignored="false" />
+    <file path="/restaurantRequest.xml" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1375747496075" ignored="false" />
+    <file path="/RestaurantServlet.java" changelist="9d6d7bd4-fdf5-4c0a-90ed-71f47c2a7e56" time="1376179041092" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +36,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -84,7 +73,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -94,85 +82,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="restaurantRequest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/restaurantRequest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="53" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="r.xsd" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/r.xsd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="restaurantRequest.xsd" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/restaurantRequest.xsd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="restaurantResponse.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/restaurantResponse.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="restaurantResponse.xsd" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/restaurantResponse.xsd">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RestaurantServlet.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/servlet/RestaurantServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="20" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.5452463">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Body.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/soapRequest/Body.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="47" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Envelope.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/soapRequest/Envelope.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="13" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetRestaurants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/soapRequest/GetRestaurants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="1" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
+            <state line="43" column="62" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.70190024">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restaurants.xsd" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/model/restaurants.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="23" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,22 +121,28 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/resources/restaurantRequest.xsd" />
-        <option value="$PROJECT_DIR$/resources/restaurantRequest.xml" />
         <option value="$PROJECT_DIR$/resources/menuRequest.xml" />
         <option value="$PROJECT_DIR$/resources/menuResponse.xml" />
         <option value="$PROJECT_DIR$/src/edu/neumont/csc380/MyServlet.java" />
         <option value="$PROJECT_DIR$/resources/restaurantResponse.xml" />
         <option value="$PROJECT_DIR$/src/edu/neumont/csc380/RestaurantServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/resources/restaurantRequest.xml" />
+        <option value="$PROJECT_DIR$/src/edu/neumont/csc380/model/restaurants.xsd" />
         <option value="$PROJECT_DIR$/src/edu/neumont/csc380/servlet/RestaurantServlet.java" />
       </list>
     </option>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -239,140 +170,28 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="soapForLunch" />
+              <option name="myItemId" value="jaxws_exercise" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="soapForLunch" />
+              <option name="myItemId" value="jaxws_exercise" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ws_lunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soapForLunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ws_lunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soapForLunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ws_lunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soapForLunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ws_lunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc380" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soapResponse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soapForLunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ws_lunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc380" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soapRequest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soapForLunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ws_lunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csc380" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="servlet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soapForLunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ws_lunch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,16 +202,16 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/edu/neumont/csc380" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -498,6 +317,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="soapForLunch:war exploded">
@@ -582,8 +402,8 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -592,16 +412,17 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17929563" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40089086" sideWeight="0.5719063" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42809364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -668,58 +489,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/menuResponse.xml">
+    <entry file="file://$PROJECT_DIR$/resources/restaurantResponse.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="57" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/menuRequest.xml">
+    <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/soapRequest/GetRestaurants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/menuResponse.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="57" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="javaeeDummy://JavaeeElement:/b6e68555/MyServlet/soapForLunch/web/Web/Servlet">
-      <provider selected="true" editor-type-id="com.intellij.javaee.module.view.web.viewlets.ServletEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/menuResponse.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="53" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/menuRequest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="53" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/restaurantRequest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="53" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/soapRequest/Body.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="47" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="31" column="1" selection-start="784" selection-end="784" vertical-scroll-proportion="0.5452463" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/soapRequest/Envelope.java">
@@ -729,13 +508,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/soapRequest/GetRestaurants.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="1" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="5" column="25" selection-start="300" selection-end="300" vertical-scroll-proportion="0.11053316" />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/restaurantRequest.xsd">
@@ -745,47 +529,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/r.xsd">
+    <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/soapResponse/GetRestaurantsResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="34" column="13" selection-start="972" selection-end="972" vertical-scroll-proportion="0.23690774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/menuRequest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="53" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/menuResponse.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="192" selection-start="307" selection-end="307" vertical-scroll-proportion="0.1863581">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/restaurantResponse.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+        <state line="6" column="53" selection-start="239" selection-end="239" vertical-scroll-proportion="0.11929824">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/restaurantResponse.xsd">
+    <entry file="file://$PROJECT_DIR$/resources/rr.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/resources/restaurantRequest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="300" selection-end="300" vertical-scroll-proportion="0.10023585">
+        <state line="6" column="10" selection-start="215" selection-end="215" vertical-scroll-proportion="0.11929824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/model/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="13" selection-start="1262" selection-end="1262" vertical-scroll-proportion="-0.55819476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/model/Menuitem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="69" selection-start="2247" selection-end="2247" vertical-scroll-proportion="0.7577197">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/model/Lunch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="13" selection-start="874" selection-end="874" vertical-scroll-proportion="0.33254156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/model/restaurants.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="23" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/neumont/csc380/servlet/RestaurantServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.5452463">
-          <folding />
+        <state line="43" column="62" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.70190024">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

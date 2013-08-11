@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/soapForLunch.iml" filepath="$PROJECT_DIR$/soapForLunch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jaxws_exercise.iml" filepath="$PROJECT_DIR$/jaxws_exercise.iml" />
     </modules>
   </component>
 </project>
