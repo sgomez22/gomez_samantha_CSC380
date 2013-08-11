@@ -4,6 +4,6 @@
 	soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
 
 	<soap:Body xmlns:r="http://www.example.org/sgomez">
-	  <rr:getRestaurants/>
+	  <r:getRestaurants/>
 	</soap:Body>
 </soap:Envelope>

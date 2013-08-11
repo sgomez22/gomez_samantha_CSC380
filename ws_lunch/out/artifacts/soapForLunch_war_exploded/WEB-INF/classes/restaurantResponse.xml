@@ -3,7 +3,9 @@
 	xmlns:soap="http://www.w3.org/2001/12/soap-envelope"
 	soap:encodingStyle="http://www.w3.org/2001/12/soap-encoding">
 
-	<soap:Body xmlns:r="http://www.example.org/sgomez">
-	  <rr:getRestaurants/>
+	<soap:Body xmlns:rr="http://www.example.org/sgomez">
+	  <rr:getRestaurantsResponse>
+		<rr:restaurant name="Lamb's Grill"/>
+	  </rr:getRestaurantsResponse>
 	</soap:Body>
 </soap:Envelope>
