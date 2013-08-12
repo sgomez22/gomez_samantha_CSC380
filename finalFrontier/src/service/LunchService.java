@@ -1,6 +1,8 @@
 package service;
 
 import javax.jws.WebMethod;
+import javax.jws.WebParam;
+import javax.jws.WebResult;
 import javax.jws.WebService;
 
 /**
@@ -13,6 +15,6 @@ import javax.jws.WebService;
 @WebService(name = "LunchService", targetNamespace = "http://localhost/LunchService")
 public interface LunchService {
 
-    @WebMethod
-    public String getRestaurant(Restaurant rest);
+    @WebMethod(operationName = "getRestaurant")
+    public @WebResult(name = "String") String getRestaurant(@WebParam(name = "rest") Restaurant rest);
 }
